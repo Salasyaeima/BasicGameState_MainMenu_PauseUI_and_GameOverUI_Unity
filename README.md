@@ -46,7 +46,7 @@ Setelah diimpor, kamu akan melihat menu baru **"GameSeed Tools"** di deretan men
 * **Generate Main Menu:** Membuat *Canvas* Main Menu yang sudah terhubung dengan logika transisi dan tombol Start/Quit.
 * **Generate In-Game UI:** Membuat *HUD* dan *Pause Panel* yang siap dipasang di *scene gameplay*.
 
-### Struktur Pustaka
+### Struktur Pustaka ini dari repo yayas
 ```text
 Assets/GameStatePlugin/
 ├── Editor/              # Skrip otomasi (Custom Editor Tools)
