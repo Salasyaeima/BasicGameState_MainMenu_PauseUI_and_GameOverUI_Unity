@@ -13,6 +13,17 @@
 
 ---
 
+## ⚙️ System Requirements
+
+Agar framework ini dapat berjalan dengan mulus tanpa kendala, pastikan lingkungan pengembanganmu memenuhi kriteria berikut:
+
+* **Unity Version:** Unity 6 (Direkomendasikan karena penggunaan API `linearVelocity` dan *Editor Tooling* terbaru).
+* **Input System:** Memerlukan paket **Input System** (New Input System) terinstal di *Package Manager*.
+* **TextMeshPro:** Pustaka **TextMeshPro** wajib terinstal untuk merender elemen teks (Gems, Ammo, dll).
+* **Architecture Base:** Memerlukan sistem `GameManager` (Singleton) yang memiliki `public enum GameState` global agar komunikasi *Observer* dapat berjalan.
+
+---
+
 ## 🛠️ Alur Kerja Sistem (Under the Hood)
 
 Sistem ini dirancang untuk menghindari *spaghetti code* dengan alur komunikasi satu arah.
